@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004d00; /* Dark green background */
+    color: #f0f0f0; /* Light color for contrast */
+}
+
+header, footer {
+    background-color: #003300; /* Darker green for header and footer */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif; /* Good font for headings */
+    font-size: 2em; /* Adjusted size for better visibility */
+    margin-top: 50px;
+    color: #f0f0f0; /* Match text color with the body */
+}
+
+/* New styles for titles and labels to ensure readability */
+h2, label {
+    color: #000000; /* Black color for better visibility */
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #ffffff; /* White background for form */
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 0.7em; /* Increased padding for better usability */
+    margin: 0.5em 0;
+    border: 1px solid black; /* Changed border color to black */
+    border-radius: 0.5em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #004d00; /* Dark green background for the button */
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #003300; /* Darker green for hover effect */
+}
+
+/* Styles for the content list table */
+table {
+    width: 80%;
+    margin: 2em auto;
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for table */
+    color: #000000; /* Black text for contrast */
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Light border for table cells */
+}
+
+th, td {
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+th {
+    background-color: #003300; /* Darker green for table header */
+    color: #f0f0f0; /* Light text color for table header */
+}
+
+/* Styles for update and delete links */
+a.update, a.delete {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.2em;
+    background-color: #ffffff; /* White background for buttons */
+    color: #004d00; /* Dark green text color for buttons */
+    border: 1px solid #004d00; /* Dark green border for buttons */
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.update:hover, a.delete:hover {
+    background-color: #003300; /* Darker green background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
